@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@600&family=Changa&display=swap');
+
+
+body {
+    background-color: #1a1a42;
+    margin: 0;
+}
+
+#banner {
+    border-radius: 10em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: auto;
+    margin-bottom: 1%;
+}
+
+#Buscar,
+#pesquisar {
+    display: block;
+    font-family: 'Athiti', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+#pesquisar {
+    background-image: linear-gradient(to right, #ee472a, #eeb61b);
+}
+
+#digimonList {
+    display: grid;
+    grid-template-columns: repeat(9, 0fr);
+    margin: 1rem;
+    margin-top: 1%;
+}
+
+#digimonList button {
+    background-image: linear-gradient(to right, #ee472a, #eeb61b);
+    color: rgb(0, 0, 0);
+    font-family: 'Athiti', sans-serif;
+}
+
+#resultado {
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.card {
+    background-image: linear-gradient(to bottom right, #ee472a, #eeb61b, #ee472a);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-right: 4rem;
+    margin-top: 3rem;
+    padding: 0.6rem;
+}
+
+#nameDigimon,
+#lvlDigimon {
+    font-family: 'Changa', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#imagemDigimon {
+    border-radius: 0.6rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    width: 90%;
+}
+
+footer {
+    align-items: center;
+    background-color: #484866;
+    color: rgb(233, 244, 253);
+    display: flex;
+    font-family: 'Changa', sans-serif;
+    height: 1.8rem;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
